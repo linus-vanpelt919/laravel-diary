@@ -15,3 +15,18 @@ mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
+
+
+    // mix.js('resources/js/app.js', 'public/js')
+    // .vue()
+    // .sass('resources/sass/app.scss', 'public/css')
+    // .browserSync({
+    //     files: [
+    //         "resources/views/**/*.blade.php",
+    //         "public/**/*.*"
+    //     ],
+    //     proxy: {
+    //         target: "http://127.0.0.1:8000/",
+    //     }
+    // });
+
