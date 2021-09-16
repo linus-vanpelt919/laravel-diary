@@ -29,6 +29,6 @@ return [
 
     'max_age' => 0,
 
-    'supports_credentials' => false,
+    'supports_credentials' => false,//spawを異なるドメイン間で使用する場合trueにする
 
 ];
